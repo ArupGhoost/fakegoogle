@@ -1,0 +1,147 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  
+}
+
+.footer{
+  margin-top: 24px;
+  padding: 15px;
+  position: fixed;
+  background-color: rgba(192,192,192,0.3);
+  bottom: 44px;
+  left: 0;
+  width: 100%;
+
+}
+.nice{
+  border-top: 1px rgba(192, 192, 192, 0.6) solid;
+  
+  margin-left: -22px;
+  margin-top: 608px;
+}
+.attr1{
+  position: absolute;
+  top: 17px;
+  right: 125px;
+  
+}
+.attr1:hover{
+  /* border: 2px solid grey; */
+  /* text-decoration: none; */
+  /* transition: ease-in-out 10s; */
+  border-radius: 10px 10px;
+  box-shadow: 3px 3px 10px 0px grey;
+}
+a:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+.attr2{
+  position: absolute ;
+  top: 20px;
+  right: 178px;
+}
+.attr3{
+  position: absolute;
+  top: 20px;
+  right: 250px;
+}
+.attr4{
+  position: absolute;
+  top: 12px;
+  right: 20px;
+  font-size: medium;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  background-color: blue;
+  color: whitesmoke;
+  border-radius: 5px 5px ;
+  outline: none;
+  border: none;
+  
+  
+}
+.attr4:hover{
+  cursor: pointer;
+  filter: opacity(75%);
+}
+.main{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.main1{
+  text-decoration: none;
+  
+}
+a{
+  text-decoration: none;
+  color: black;
+  font-size: 13px;
+  font-family: sans-serif;
+}
+.footer2{
+  margin-top: 24px;
+  padding: 14px;
+  position: fixed;
+  background-color: rgba(192,192,192,0.3);
+  bottom: 0px;
+  
+  width: 100%;
+      
+
+}
+p{
+  float: left;
+  font-family: sans-serif;
+  filter: opacity(70%);
+}
+input{
+  position: absolute;
+  top: 180px;
+  left: 410px;
+  
+  
+  width: 42%;
+  border: 1px solid #ccc;
+  
+  background: transparent;
+  border-radius: 25px 25px;
+  padding: 16px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  outline: none;
+  
+}
+input:hover{
+  box-shadow: 1px 1px 7px 7px whitesmoke;
+
+}
+.button1{
+  padding: 7px;
+  border: 1px white solid;
+  filter: opacity(75%);
+
+}
+.button1:hover{
+  border: grey 1px solid;
+  cursor: pointer;
+  border-radius: 2px 2px;
+}
+.button2{
+  padding: 7px;
+  border: white 1px solid;
+  filter: opacity(75%);
+}
+.button2:hover{
+  border: grey 1px solid;
+  cursor: pointer;
+  border-radius: 2px 2px;
+}
+h1{
+  position: absolute;
+  top: 50px;
+  left: 547px;
+  font-size: 14vh;
+}
